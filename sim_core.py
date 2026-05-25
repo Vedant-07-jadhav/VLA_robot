@@ -4,7 +4,6 @@ import time
 
 
 def move_to_target(robotId, target_position):
-
     end_effector_index = 11
 
     target_orientation = p.getQuaternionFromEuler([3.14, 0, 0])
